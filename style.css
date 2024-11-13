@@ -1,0 +1,32 @@
+h1 {
+    background-color: #f02425;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+h2 {
+    color: #f02425;
+    text-align: center;
+}
+body {
+    background-color: #fff3db;
+    font-family: sans-serif;
+}
+
+strong {
+    color: #f02425;
+}
+
+em {
+    color: #000000;
+    text-decoration: underline;
+    text-align: center;
+}
+
+p {
+    color: #505050;
+}
+h3 {
+    text-align: center;
+    font-weight: normal;
+}
