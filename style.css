@@ -34,3 +34,8 @@ h3 {
 span{
     color: #f02425;
 }
+
+img{
+    margin:auto;
+    display: flex;
+}
