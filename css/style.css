@@ -1,0 +1,63 @@
+html {
+    width: 800px;
+    margin: auto;
+}
+
+body {
+    
+    background-color: #white;
+}
+
+main {
+    background-color: #f0e9e9;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+    
+
+h1, h2, h3, h4, h5, h6 {
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.pancakes {
+    margin: auto;
+    padding-top: 1em;
+}
+
+.recette__title {
+    background-color:red ;
+    color: white;
+    font-size: 3em;
+    text-transform: uppercase ;
+    margin: 0.5em;
+}
+
+h2 {
+    color: red;
+}
+
+h3 {
+    text-decoration: underline;
+    font-weight: 100;
+}
+
+em {
+    color: red;
+}
+
+strong{
+    color: red;
+}
+
+section {
+    margin: 2em;
+}
+
+a:hover {
+    background-color: aqua;
+}
+
+.astuce {
+    background-color: bisque;
+}
