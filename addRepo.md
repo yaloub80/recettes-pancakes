@@ -1,19 +1,22 @@
 1. Cloner le dépôt O’clock (repo source)
+
 git clone git@github.com/O-clock-Trinity/NomDuRepo
 cd NomDuRepo
 
-2. Récupérer toutes les branches distantes
+3. Récupérer toutes les branches distantes
+
 for BRANCH in $(git branch -a | grep remotes | grep -v HEAD | grep -v master); do \
 git branch --track "${BRANCH#remotes/origin/}" "${BRANCH}"; \
 done
 
-3. Supprimer le README.md de chaque branche
+4. Supprimer le README.md de chaque branche
+
 for BRANCH in $(git branch); do \
 git checkout ${BRANCH} && \
 git filter-branch -f --index-filter 'git rm --cached --ignore-unmatch README.md'; \
 done
 
-4. Changer la remote vers ton propre repo
+6. Changer la remote vers ton propre repo
 
 Supprime l’ancienne remote :
 git remote remove origin
